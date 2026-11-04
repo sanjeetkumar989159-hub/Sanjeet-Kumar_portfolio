@@ -1,0 +1,12 @@
+{
+  "name": "sanjeet-kumar-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Static portfolio for Sanjeet Kumar. No build step.",
+  "type": "module",
+  "scripts": {
+    "configure": "node scripts/configure.mjs",
+    "start": "npx --yes serve@14 -l 5173 ."
+  },
+  "engines": { "node": ">=18" }
+}

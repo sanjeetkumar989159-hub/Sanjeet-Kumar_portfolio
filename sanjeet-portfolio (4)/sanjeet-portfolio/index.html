@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sanjeet Kumar Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="features/features.css">
+<link rel="preload" as="image" href="assets/portrait.webp" type="image/webp">
+<link rel="dns-prefetch" href="https://api.github.com">
+<!-- fx:seo:start -->
+<meta name="description" content="Sanjeet Kumar is a Computer Science student building a career in data analytics. Python, SQL, Power BI and Excel, project case studies, certificates and resume.">
+<meta name="author" content="Sanjeet Kumar">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sanjeet Kumar">
+<meta property="og:title" content="Sanjeet Kumar · Data Analyst Portfolio">
+<meta property="og:description" content="Sanjeet Kumar is a Computer Science student building a career in data analytics. Python, SQL, Power BI and Excel, project case studies, certificates and resume.">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sanjeet Kumar, data analyst: Python, SQL, Power BI">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sanjeet Kumar · Data Analyst Portfolio">
+<meta name="twitter:description" content="Sanjeet Kumar is a Computer Science student building a career in data analytics. Python, SQL, Power BI and Excel, project case studies, certificates and resume.">
+<meta name="twitter:image" content="assets/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sanjeet Kumar","description":"Sanjeet Kumar is a Computer Science student building a career in data analytics. Python, SQL, Power BI and Excel, project case studies, certificates and resume.","email":"mailto:sumitkumar989159@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Giridih","addressRegion":"Jharkhand","addressCountry":"IN"},"alumniOf":{"@type":"CollegeOrUniversity","name":"SAGE University Bhopal"},"knowsAbout":["Data analysis","Python","SQL","Power BI","Microsoft Excel","Pandas","NumPy"],"sameAs":["https://github.com/sanjeetkumar989159-hub","https://www.linkedin.com/in/sanjeet-kumar-706597s/","https://leetcode.com/u/sanjeet1234/"]}</script>
+<!-- fx:seo:end -->
+
+</head>
+<body>
+<a class="fx-skip" href="#about">Skip to main content</a>
+<noscript><style>.pre { display: none; }</style></noscript>
+
+<div class="pre" id="pre" role="status" aria-live="polite" aria-label="Loading portfolio">
+  <div class="strips" aria-hidden="true"><i style="--s:0"></i><i style="--s:1"></i><i style="--s:2"></i><i style="--s:3"></i><i style="--s:4"></i><i style="--s:5"></i><i style="--s:6"></i></div>
+  <div class="pre-inner">
+    <p class="pre-name" id="preName" aria-hidden="true"></p>
+    <p class="pre-roles" aria-hidden="true">DATA ANALYST · PYTHON · SQL · POWER BI</p>
+    <div class="pre-track" aria-hidden="true"><div class="pre-bar" id="preBar"></div></div>
+    <div class="pre-meta"><span id="preLabel">INITIALIZING EXPERIENCE</span><span id="prePct">0%</span></div>
+    <div class="pre-gate" id="gate" hidden>
+      <button class="btn" id="enterVoice" type="button">Enter with voice</button>
+      <button class="btn ghost" id="enterSilent" type="button">Enter silently</button>
+    </div>
+  </div>
+</div>
+
+<header class="hero" id="top">
+  <video class="bgvid" id="bgvid" autoplay muted loop playsinline preload="auto" aria-hidden="true" tabindex="-1"><source src="assets/hero-bg.mp4" type="video/mp4"></video>
+  <canvas class="grid" id="grid" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="bar">
+      <span class="mark">Portfolio / 2026</span>
+      <nav aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <button class="kbtn" id="kbtn" type="button" aria-haspopup="dialog">Jump to <kbd>Ctrl K</kbd></button>
+      </nav>
+    </div>
+    <div class="hero-copy">
+      <h1 class="name"><span class="ln">Sanjeet</span><span class="ln">Kumar</span></h1>
+      <p class="roles">Data Analyst · <em>Python</em> · SQL · <em>Power BI</em></p>
+      <p class="welcome">
+        <span>Welcome to my portfolio.</span>
+        <button class="intro" id="sound" type="button" aria-pressed="false" aria-label="Play spoken introduction">
+          <span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i></span><b>Play introduction</b>
+        </button>
+      </p>
+      <p class="caption" id="caption" hidden aria-live="polite"></p>
+      <div class="cta">
+        <a class="btn" href="#projects">View project</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="stage" id="stage">
+    <div class="floor"></div>
+    <div class="walker" id="walker">
+      <div class="tilt" id="tilt">
+        <span class="orbit" aria-hidden="true"></span>
+        <span class="sat" aria-hidden="true"><i></i></span>
+        <span class="disc" aria-hidden="true"></span>
+        <img class="portrait" id="portrait" src="assets/portrait.webp" width="820" height="937" alt="Portrait of Sanjeet Kumar in a navy suit">
+        <span class="tag t1" aria-hidden="true">Python</span>
+        <span class="tag t2" aria-hidden="true">SQL</span>
+        <span class="tag t3" aria-hidden="true">Power BI</span>
+        <span class="badge" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><defs><path id="circ" d="M50 50 m-37 0 a37 37 0 1 1 74 0 a37 37 0 1 1 -74 0"/></defs><text><textPath href="#circ">Data Analyst · Python · SQL · Power BI ·</textPath></text></svg>
+          <i></i>
+        </span>
+      </div>
+    </div>
+    <p class="cap">Giridih, Jharkhand<br>B.Tech CSE · SAGE University Bhopal<br>Local time <span id="clock">--:--</span> IST</p>
+  </div>
+
+  <div class="cue" aria-hidden="true"><span>Scroll</span><i></i></div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="track">
+    <div class="set"><span>Python</span><span>SQL</span><span>Power BI</span><span>Pandas</span><span>NumPy</span><span>Advanced Excel</span><span>API Integration</span><span>Data Visualization</span><span>Figma</span><span>Java</span><span>C++</span></div>
+    <div class="set"><span>Python</span><span>SQL</span><span>Power BI</span><span>Pandas</span><span>NumPy</span><span>Advanced Excel</span><span>API Integration</span><span>Data Visualization</span><span>Figma</span><span>Java</span><span>C++</span></div>
+  </div>
+</div>
+
+<main>
+  <section class="sec" id="about">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">About</h2>
+      <div>
+        <p class="statement">I turn raw data into clear, <em>visual</em> answers.</p>
+        <p class="lead">I am a Computer Science Engineering student at SAGE University Bhopal, building a career in data analytics. I work with Python, SQL, Advanced Excel and Power BI, and I use Pandas and NumPy to clean, process and analyze data. From July to August 2026 I interned in data analytics at Codec Technologies. I also built a Python project that pulls live weather data for Indian state capitals through an API. Alongside analytics, I practise data structures and algorithms in Java and C++.</p>
+        <dl class="facts">
+          <div><dt>Based in</dt><dd>Giridih, Jharkhand</dd></div>
+          <div><dt>Studying</dt><dd>B.Tech, Computer Science Engineering (2025–2029)</dd></div>
+          <div><dt>Focus</dt><dd>Data analysis, visualization, API integration</dd></div>
+          <div><dt>Certified in</dt><dd>Prompt Engineering, UI/UX, Docker Essentials</dd></div>
+        </dl>
+        <ul class="stats">
+          <li><b data-count="3">3</b><span>Certifications</span></li>
+          <li><b data-count="2">2</b><span>Assessments cleared at 60%+</span></li>
+          <li><b data-count="9">9</b><span>DSA topics practised</span></li>
+          <li><b data-count="2">2</b><span>Projects built</span></li>
+        </ul>
+        <figure class="code" id="code" role="img" aria-label="Illustrative Python sketch of the weather project: request data for each city, build a DataFrame, save a CSV.">
+          <figcaption><i></i><i></i><i></i><span>weather_pipeline.py</span><em>Illustrative sketch of my project workflow</em></figcaption>
+          <pre aria-hidden="true"><code id="codeOut"></code></pre>
+        </figure>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="story" id="story" aria-label="How I turn raw data into insight">
+    <div class="story-pin">
+      <div class="wrap story-grid">
+        <div class="story-copy">
+          <h2 class="label">Workflow</h2>
+          <ol class="steps" id="steps">
+            <li class="on"><span class="n">STEP 01 / 04</span><h3>Collect</h3><p>Get the data from SQL, Excel or an API, like the OpenWeather API in my weather project.</p></li>
+            <li><span class="n">STEP 02 / 04</span><h3>Clean</h3><p>Process and organise it with Python, Pandas and NumPy, so the numbers can be trusted.</p></li>
+            <li><span class="n">STEP 03 / 04</span><h3>Analyse</h3><p>Look for the pattern underneath, using analytical and problem-solving skills.</p></li>
+            <li><span class="n">STEP 04 / 04</span><h3>Visualise</h3><p>Present the insight clearly in Power BI and other data visualization tools.</p></li>
+          </ol>
+          <div class="story-bar" aria-hidden="true"><i id="storyBar"></i></div>
+        </div>
+        <figure class="story-fig">
+          <canvas id="storyCv" role="img" aria-label="Animation: scattered raw data points are cleaned, fitted with a trend line, then turned into a bar chart."></canvas>
+          <figcaption>Illustration, not real data</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec soft" id="skills">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Skills</h2>
+      <div>
+        <div class="skill-group">
+          <h3>Data analysis</h3>
+          <ul class="chips"><li class="chip">Python</li><li class="chip">Pandas</li><li class="chip">NumPy</li><li class="chip">SQL</li><li class="chip">Excel (Advanced)</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Visualization and BI</h3>
+          <ul class="chips"><li class="chip">Power BI</li><li class="chip">Data Visualization Tools</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web, design and integration</h3>
+          <ul class="chips"><li class="chip">HTML/CSS</li><li class="chip">API Integration</li><li class="chip">Figma</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Working style</h3>
+          <ul class="chips"><li class="chip soft">Communication</li><li class="chip soft">Critical thinking</li><li class="chip soft">Teamwork</li><li class="chip soft">Problem-Solving</li><li class="chip soft">Adaptability</li></ul>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <div class="bigword" aria-hidden="true"><div class="bw-track"><span>Data</span><span class="o">Insights</span><span>Decisions</span><span class="o">Data</span><span>Insights</span><span class="o">Decisions</span></div></div>
+
+  <section class="sec" id="experience">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Experience</h2>
+      <article class="item">
+        <h3>Data Analytics Intern</h3>
+        <p class="meta"><strong>Codec Technologies</strong><span>14 Jul 2026 – 16 Aug 2026</span><span>AICTE &amp; ICAC approved</span></p>
+        <ul class="ticks">
+          <li>Worked on data analytics tasks using Python, SQL, Advanced Excel and data visualization.</li>
+          <li>Applied Python, Pandas and NumPy for data processing and analysis.</li>
+          <li>Used data visualization tools to analyze and present data-driven insights.</li>
+          <li>Applied analytical and problem-solving skills to practical data analysis workflows.</li>
+          <li>Gained hands-on exposure to data processing, analysis, visualization and data-driven problem-solving.</li>
+        </ul>
+        <ul class="chips"><li class="chip soft">Python</li><li class="chip soft">Excel (Advanced)</li><li class="chip soft">SQL</li><li class="chip soft">Power BI</li><li class="chip soft">NumPy</li><li class="chip soft">Pandas</li><li class="chip soft">Data Visualization Tools</li></ul>
+        <button class="proof wide" type="button" data-zoom aria-label="View the Codec Technologies internship certificate in full size">
+          <span class="proof-img"><img src="assets/cert-codec-internship.webp" alt="Codec Technologies certificate of internship awarded to Sanjeet Kumar as Data Analytics Intern, 14/07/2026 to 16/08/2026" width="1000" height="629" loading="lazy"></span>
+          <span class="proof-txt"><b>Certificate of Internship</b><span>Codec Technologies Pvt. Ltd. · 1-month AICTE &amp; ICAC approved program · 14/07/2026 to 16/08/2026</span><em>View full size ↗</em></span>
+        </button>
+      </article>
+    </div></div>
+  </section>
+
+  <section class="sec soft" id="projects">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Projects</h2>
+      <div>
+      <article class="item">
+        <h3>India Weather Analysis 2026</h3>
+        <dl class="spec">
+          <div><dt>Source</dt><dd>OpenWeather API</dd></div>
+          <div><dt>Coverage</dt><dd>Indian state capitals</dd></div>
+          <div><dt>Measures</dt><dd>Temperature, humidity</dd></div>
+          <div><dt>Output</dt><dd>Charts, CSV dataset</dd></div>
+        </dl>
+        <ol class="flow" aria-label="Project pipeline: collect, process, present, store">
+          <li class="node"><b>OpenWeather API</b><span>01 · Collect temperature, humidity</span></li>
+          <li class="wire" aria-hidden="true"></li>
+          <li class="node"><b>Python + Pandas</b><span>02 · Process and organise</span></li>
+          <li class="wire" aria-hidden="true"></li>
+          <li class="node"><b>Visualizations</b><span>03 · Present insights</span></li>
+          <li class="wire" aria-hidden="true"></li>
+          <li class="node"><b>CSV dataset</b><span>04 · Store for reuse</span></li>
+        </ol>
+        <ul class="ticks">
+          <li>Built a Python project that collects real-time weather data for Indian state capitals.</li>
+          <li>Integrated the OpenWeather API to retrieve temperature and humidity.</li>
+          <li>Processed and organized the collected data with Python and Pandas.</li>
+          <li>Created data visualizations that present weather information and insights.</li>
+          <li>Stored the processed data in CSV format for analysis and future reference.</li>
+        </ul>
+        <ul class="chips"><li class="chip">Python</li><li class="chip">OpenWeather API</li><li class="chip">Pandas</li><li class="chip">Data Visualization</li><li class="chip">CSV</li></ul>
+        <p style="margin:1.8rem 0 0"><a class="btn" href="https://github.com/sanjeetkumar989159-hub" target="_blank" rel="noopener">GitHub profile</a></p>
+        <details class="fx-case" id="case-weather">
+          <summary>Read the case study</summary>
+          <div class="fx-case-body">
+            <div>
+              <h4><span>01</span>Goal</h4>
+              <p>Collect real-time weather data for Indian state capitals and turn it into something that can be analysed, charted and reused.</p>
+              <h4><span>02</span>Data</h4>
+              <p>Temperature and humidity from the OpenWeather API. The processed records are stored as CSV so the dataset can be revisited without calling the API again.</p>
+            </div>
+            <div>
+              <h4><span>03</span>Approach</h4>
+              <ul class="ticks">
+                <li><b>Collect:</b> integrate the OpenWeather API and retrieve weather data for state capitals.</li>
+                <li><b>Process:</b> organise and clean the collected data with Python and Pandas.</li>
+                <li><b>Present:</b> create data visualizations that show weather information and insights.</li>
+                <li><b>Store:</b> save the processed data in CSV format for analysis and future reference.</li>
+              </ul>
+            </div>
+            <div>
+              <h4><span>04</span>Skills applied</h4>
+              <p>API integration, data collection, data processing, data analysis and data visualization, using Python, Pandas and CSV.</p>
+            </div>
+            <div>
+              <h4><span>05</span>What this page does not claim</h4>
+              <p>This write-up documents the pipeline. No measured findings, accuracy figures or usage numbers are published for this project, so none are stated here.</p>
+            </div>
+            <div class="fx-wide"><div class="fx-actions"><a class="btn ghost small" href="https://github.com/sanjeetkumar989159-hub/india-weather-analysis" target="_blank" rel="noopener" data-fx-track="source_weather">Source code on GitHub ↗</a></div></div>
+          </div>
+        </details>
+      </article>
+      <article class="item" id="lifeflow" style="margin-top:clamp(3.5rem,7vw,6rem)">
+        <h3>LifeFlow Blood Bank</h3>
+        <p class="meta"><strong>Web app prototype</strong><span>Live on GitHub Pages</span></p>
+        <dl class="spec">
+          <div><dt>Users</dt><dd>Donors, hospitals, patients</dd></div>
+          <div><dt>Requests</dt><dd>Critical, urgent, standard</dd></div>
+          <div><dt>Sign-in</dt><dd>Phone OTP, Google</dd></div>
+          <div><dt>Views</dt><dd>Inventory, donor directory</dd></div>
+        </dl>
+        <ul class="ticks">
+          <li>A blood bank network site that connects donors, hospitals and people who need blood.</li>
+          <li>Donor registration with blood type, weight, city and availability.</li>
+          <li>Blood requests from hospitals with three urgency levels.</li>
+          <li>Live inventory by blood type and hospital, plus a donor directory filtered by blood type.</li>
+          <li>Account sign-up and login with OTP verification, and a donor profile with alert preferences.</li>
+          <li>Runs on demo data and a demo OTP, so it works as a working prototype.</li>
+        </ul>
+        <ul class="chips"><li class="chip">Web app</li><li class="chip">Donor registry</li><li class="chip">Inventory dashboard</li><li class="chip">OTP login flow</li></ul>
+        <p style="margin:1.8rem 0 0"><a class="btn" href="https://sanjeetkumar989159-hub.github.io/Life-Flow-Blood-Bank/" target="_blank" rel="noopener">Open live site ↗</a></p>
+        <details class="fx-case" id="case-lifeflow">
+          <summary>Read the case study</summary>
+          <div class="fx-case-body">
+            <div>
+              <h4><span>01</span>Goal</h4>
+              <p>One place where blood donors, hospitals and people who need blood can find each other, instead of relying on scattered phone calls and messages.</p>
+              <h4><span>02</span>Who it serves</h4>
+              <p>Donors register their blood type, weight, city and availability. Hospitals post blood requests. Patients and families browse the donor directory and the live inventory.</p>
+            </div>
+            <div>
+              <h4><span>03</span>Key flows</h4>
+              <ul class="ticks">
+                <li><b>Requests:</b> three urgency levels, critical (within 2 hours), urgent (within 24 hours) and standard (2–5 days).</li>
+                <li><b>Inventory:</b> live stock by blood type and hospital.</li>
+                <li><b>Directory:</b> donors filtered by blood type.</li>
+                <li><b>Accounts:</b> sign-up and login with OTP verification, plus a donor profile with alert preferences.</li>
+              </ul>
+            </div>
+            <div>
+              <h4><span>04</span>Status</h4>
+              <p>A working prototype hosted on GitHub Pages. It runs on demo data and a demo OTP, so it demonstrates the flows rather than serving real donors or hospitals.</p>
+            </div>
+            <div>
+              <h4><span>05</span>Try it</h4>
+              <p>Open the live site and walk through registering as a donor, filing a request and filtering the directory.</p>
+            </div>
+            <div class="fx-wide"><div class="fx-actions"><a class="btn ghost small" href="https://sanjeetkumar989159-hub.github.io/Life-Flow-Blood-Bank/" target="_blank" rel="noopener" data-fx-track="open_lifeflow">Open live site ↗</a></div></div>
+          </div>
+        </details>
+      </article>
+      <div class="fx-gh" id="fxGh" data-state="loading" hidden>
+        <h3>Live from <em>GitHub.</em></h3>
+        <ul class="stats" id="fxGhStats">
+          <li><b><span class="fx-skel"></span></b><span>Public repositories</span></li>
+          <li><b><span class="fx-skel"></span></b><span>Followers</span></li>
+          <li><b><span class="fx-skel"></span></b><span>Stars received</span></li>
+          <li><b><span class="fx-skel"></span></b><span>Following</span></li>
+        </ul>
+        <ul class="chips" id="fxGhLangs" aria-label="Primary languages across repositories" hidden></ul>
+        <ul class="rows" id="fxGhRepos" aria-label="Recently updated repositories" hidden></ul>
+        <p class="fx-gh-state" id="fxGhState" role="status">Loading public numbers from the GitHub API…</p>
+        <p style="margin:1.2rem 0 0"><a class="btn ghost small" id="fxGhLink" href="https://github.com/sanjeetkumar989159-hub" target="_blank" rel="noopener">Open GitHub profile ↗</a></p>
+      </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="sec" id="dsa">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Problem solving</h2>
+      <article class="item">
+        <h3>Data structures and algorithms</h3>
+        <p class="lead" style="margin-top:1.2rem">A strong foundation in arrays, strings, linked lists, stacks, queues, trees, graphs, hash maps and dynamic programming. I solve problems in Java and C++, work with Big-O analysis and Object-Oriented Programming, and practise regularly on LeetCode and HackerRank.</p>
+        <ul class="chips" style="margin-top:1.6rem"><li class="chip">Java</li><li class="chip">C++</li><li class="chip">Big-O analysis</li><li class="chip">OOP</li><li class="chip soft">LeetCode</li><li class="chip soft">HackerRank</li></ul>
+        <p style="margin:1.8rem 0 0"><a class="btn" href="https://leetcode.com/u/sanjeet1234/" target="_blank" rel="noopener">LeetCode profile ↗</a></p>
+      </article>
+    </div></div>
+  </section>
+
+  <section class="sec soft" id="education">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Education</h2>
+      <div>
+        <ul class="rows">
+          <li><span class="when">2025 – 2029</span><span class="what">SAGE University Bhopal<small>B.Tech, Computer Science Engineering</small></span><span></span></li>
+          <li><span class="when">Class XII · 2025</span><span class="what">Project High School Pihra Gowan</span><span class="score">71%</span></li>
+          <li><span class="when">Class X · 2023</span><span class="what">UHS Hariharpur</span><span class="score">71%</span></li>
+        </ul>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="sec" id="recognition">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Certifications</h2>
+      <div>
+        <a class="cert" href="https://www.credly.com/badges/02678f1c-03ee-4735-86b6-dca00312de3a" target="_blank" rel="noopener" aria-label="Docker Essentials: A Developer Introduction, issued by IBM on Oct 23, 2026. Verify on Credly.">
+          <span class="cert-img"><img src="assets/cert-ibm-docker.webp" alt="IBM certificate awarded to Sanjeet Kumar for Docker Essentials: A Developer Introduction, issued Oct 23, 2026" width="1000" height="773" loading="lazy"><span class="glare"></span></span>
+          <span class="cert-info">
+            <span class="cert-tag">Latest · verifiable on Credly</span>
+            <b>Docker Essentials: A Developer Introduction</b>
+            <span class="cert-meta">Issued by IBM · Oct 23, 2026</span>
+            <span class="cert-link">Verify certificate ↗</span>
+          </span>
+        </a>
+        <div class="certs2">
+          <button class="proof" type="button" data-zoom aria-label="View the Prompt Engineering Mastery certificate in full size">
+            <span class="proof-img"><img src="assets/cert-sunstone-prompt-engineering.webp" alt="Sunstone School of Technology Certificate of Excellence for Prompt Engineering Mastery, May 2026, awarded to Sanjeet Kumar" width="1000" height="793" loading="lazy"></span>
+            <span class="proof-txt"><b>Prompt Engineering Mastery</b><span>Sunstone School of Technology · May 2026</span><em>View full size ↗</em></span>
+          </button>
+          <button class="proof" type="button" data-zoom aria-label="View the UI/UX Professional Certification in full size">
+            <span class="proof-img"><img src="assets/cert-sunstone-ui-ux.webp" alt="Sunstone School of Technology Certificate of Excellence for UI/UX Professional Certification, April 2026, awarded to Sanjeet Kumar" width="1000" height="750" loading="lazy"></span>
+            <span class="proof-txt"><b>UI/UX Professional Certification</b><span>Sunstone School of Technology · April 2026</span><em>View full size ↗</em></span>
+          </button>
+        </div>
+        <div class="fx-verify" id="fx-verify">
+          <h3>Verify credentials</h3>
+          <ul class="rows">
+            <li><span class="what">Docker Essentials: A Developer Introduction<small>IBM · Oct 23, 2026 · verifiable Credly badge</small></span><a class="btn ghost small" href="https://www.credly.com/badges/02678f1c-03ee-4735-86b6-dca00312de3a" target="_blank" rel="noopener" data-fx-track="verify_ibm">Verify on Credly ↗</a></li>
+            <li><span class="what">Prompt Engineering Mastery<small>Sunstone School of Technology · May 2026 · certificate ID <code>01386ba0-4739-45e7-9db5-d42bf631ee64</code></small></span><a class="btn ghost small" href="https://sunstone.in/certificate?id=01386ba0-4739-45e7-9db5-d42bf631ee64" target="_blank" rel="noopener" data-fx-track="verify_prompt">Verify on Sunstone ↗</a></li>
+            <li><span class="what">UI/UX Professional Certification<small>Sunstone School of Technology · April 2026 · certificate ID <code>f5394024-8b76-4685-820f-17bc29d7cd20</code></small></span><a class="btn ghost small" href="https://sunstone.in/certificate?id=f5394024-8b76-4685-820f-17bc29d7cd20" target="_blank" rel="noopener" data-fx-track="verify_uiux">Verify on Sunstone ↗</a></li>
+            <li><span class="what">Data Analytics Internship<small>Codec Technologies · 14 Jul – 16 Aug 2026 · enter the certificate ID printed on the certificate</small></span><a class="btn ghost small" href="https://codectechnologies.in/verification/" target="_blank" rel="noopener" data-fx-track="verify_codec">Open Codec verification ↗</a></li>
+          </ul>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="sec soft" id="achievements">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Achievements</h2>
+      <ul class="rows">
+        <li><span class="when">SAGE University</span><span class="what">Presentation Design and Content<small>Recognized for outstanding skills at the Techverse event.</small></span><span></span></li>
+        <li><span class="when">SAGEB campus</span><span class="what">DSA Bootcamp Assessment<small>Scored 60% or above, showing proficiency in data structures, algorithms, coding and problem-solving.</small></span><span class="score">60%+</span></li>
+        <li><span class="when">SAGEB campus</span><span class="what">Industry Oriented Python Assessment<small>Transforming Data into Insights. Scored 60% or above, showing proficiency in Python, data analysis and data visualization.</small></span><span class="score">60%+</span></li>
+      </ul>
+    </div></div>
+  </section>
+
+  <section class="sec fx-sec" id="recruiters" aria-labelledby="recruitersTitle">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label fx-label" id="recruitersTitle">For recruiters</h2>
+      <div>
+        <p class="statement">The short version, <em>at a glance.</em></p>
+        <div class="fx-snap">
+          <div>
+            <dl class="facts">
+              <div><dt>Availability</dt><dd id="fxAvail">Not stated on this page. Email to ask.</dd></div>
+              <div><dt>Education</dt><dd>B.Tech CSE, SAGE University Bhopal (2025–2029)</dd></div>
+              <div><dt>Experience</dt><dd>Data Analytics Intern, Codec Technologies (Jul – Aug 2026)</dd></div>
+              <div><dt>Core tools</dt><dd>Python, SQL, Power BI, Advanced Excel, Pandas, NumPy</dd></div>
+              <div><dt>Credentials</dt><dd>Three certificates and an internship certificate, each with a verification link</dd></div>
+              <div><dt>Location</dt><dd>Giridih, Jharkhand · <span id="fxTime">IST (UTC+5:30)</span></dd></div>
+            </dl>
+            <div class="fx-actions" id="fxRecruitActions">
+              <a class="btn" href="mailto:sumitkumar989159@gmail.com" data-fx-track="email_click">Email Sanjeet</a>
+              <a class="btn ghost" href="#resume">Resume</a>
+              <a class="btn ghost" href="https://www.linkedin.com/in/sanjeet-kumar-706597s/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </div>
+          </div>
+          <figure class="fx-qr" id="fxQr" hidden>
+            <div class="fx-qr-box" id="fxQrBox"></div>
+            <figcaption>Scan to open this portfolio<span class="fx-qr-url" id="fxQrUrl"></span></figcaption>
+            <div class="fx-qr-btns">
+              <button class="btn ghost small" type="button" id="fxQrSvg">Save SVG</button>
+              <button class="btn ghost small" type="button" id="fxQrPng">Save PNG</button>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="sec soft fx-sec" id="resume" aria-labelledby="resumeTitle">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label fx-label" id="resumeTitle">Resume</h2>
+      <div class="fx-resume">
+        <button class="proof" type="button" data-zoom aria-label="View the resume preview in full size">
+          <span class="proof-img"><img src="assets/resume-preview.webp" alt="Preview of Sanjeet Kumar's one-page resume" width="1076" height="1521" loading="lazy"></span>
+          <span class="proof-txt"><b>Resume · Sanjeet Kumar</b><span>One page · PDF · 225 KB</span><em>View full size ↗</em></span>
+        </button>
+        <div>
+          <p class="statement">Read it, <em>or keep it.</em></p>
+          <p class="lead">A one-page CV with skills, internship, project, education and certificates.</p>
+          <div class="fx-actions">
+            <a class="btn" href="assets/Sanjeet_Kumar_Resume.pdf" target="_blank" rel="noopener" data-fx-track="resume_view">View PDF ↗</a>
+            <a class="btn ghost" href="assets/Sanjeet_Kumar_Resume.pdf" download="Sanjeet_Kumar_Resume.pdf" data-fx-track="resume_download">Download PDF</a>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="sec" id="contact">
+    <div class="wrap"><div class="sec-grid">
+      <h2 class="label">Contact</h2>
+      <div>
+        <p class="big">Get in <em>touch.</em></p>
+        <ul class="contact-list">
+          <li><span class="k">Email</span><span class="v" id="mailText">sumitkumar989159@gmail.com</span><button class="btn ghost small" type="button" data-copy="sumitkumar989159@gmail.com" data-target="mailText">Copy</button></li>
+          <li><span class="k">Phone</span><span class="v" id="telText">7065974303</span><button class="btn ghost small" type="button" data-copy="7065974303" data-target="telText">Copy</button></li>
+          <li><span class="k">Location</span><span class="v">Giridih, Jharkhand</span><span></span></li>
+          <li><span class="k">GitHub</span><a class="v" href="https://github.com/sanjeetkumar989159-hub" target="_blank" rel="noopener">github.com/sanjeetkumar989159-hub</a><span></span></li>
+          <li><span class="k">LinkedIn</span><a class="v" href="https://www.linkedin.com/in/sanjeet-kumar-706597s/" target="_blank" rel="noopener">linkedin.com/in/sanjeet-kumar-706597s</a><span></span></li>
+          <li><span class="k">LeetCode</span><a class="v" href="https://leetcode.com/u/sanjeet1234/" target="_blank" rel="noopener">leetcode.com/u/sanjeet1234</a><span></span></li>
+          <li><span class="k">LifeFlow</span><a class="v" href="https://sanjeetkumar989159-hub.github.io/Life-Flow-Blood-Bank/" target="_blank" rel="noopener">Blood bank web app ↗</a><span></span></li>
+        </ul>
+        <form class="fx-form" id="fxForm" action="mailto:sumitkumar989159@gmail.com" method="post" enctype="text/plain" aria-labelledby="fxFormTitle">
+          <h3 id="fxFormTitle">Send a <em>message.</em></h3>
+          <div class="fx-row">
+            <div class="fx-field">
+              <label for="fxName">Name <small>required</small></label>
+              <input class="fx-input" id="fxName" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="fxNameErr">
+              <p class="fx-err" id="fxNameErr" role="alert"></p>
+            </div>
+            <div class="fx-field">
+              <label for="fxEmail">Email <small>required</small></label>
+              <input class="fx-input" id="fxEmail" name="email" type="email" autocomplete="email" maxlength="120" required aria-describedby="fxEmailErr">
+              <p class="fx-err" id="fxEmailErr" role="alert"></p>
+            </div>
+          </div>
+          <div class="fx-field">
+            <label for="fxSubject">Subject <small>optional</small></label>
+            <input class="fx-input" id="fxSubject" name="subject" type="text" maxlength="120" aria-describedby="fxSubjectErr">
+            <p class="fx-err" id="fxSubjectErr" role="alert"></p>
+          </div>
+          <div class="fx-field">
+            <label for="fxMessage">Message <small id="fxCount">0 / 2000</small></label>
+            <textarea class="fx-input" id="fxMessage" name="message" maxlength="2000" required aria-describedby="fxMessageErr"></textarea>
+            <p class="fx-err" id="fxMessageErr" role="alert"></p>
+          </div>
+          <div class="fx-hp" aria-hidden="true"><label for="fxHp">Leave this field empty</label><input id="fxHp" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          <div><button class="btn" id="fxSend" type="submit">Send message</button></div>
+          <div class="fx-status" id="fxStatus" role="status" hidden></div>
+        </form>
+      </div>
+    </div></div>
+  </section>
+</main>
+
+<div class="wordmark" id="mark" aria-hidden="true"><div class="mark-inner" id="markWord"></div></div>
+<footer class="foot"><div class="wrap"><span>Sanjeet Kumar · Data Analyst</span><span>Python · SQL · Power BI</span></div></footer>
+
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Certificate viewer">
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button type="button" class="lb-x" id="lbX">Close ✕</button>
+</div>
+<div class="pal" id="pal" hidden>
+  <div class="pal-panel" role="dialog" aria-modal="true" aria-label="Jump to a section">
+    <input id="palIn" type="text" placeholder="Jump to…  (About, Projects, Contact)" autocomplete="off" aria-label="Search sections">
+    <div class="pal-list" id="palList" role="listbox"></div>
+    <p class="pal-hint">↑ ↓ to move · Enter to open · Esc to close</p>
+  </div>
+</div>
+<div class="scrollbar" id="scrollbar" aria-hidden="true"></div>
+<div class="ring" id="ring" aria-hidden="true"><span></span><em></em></div>
+<nav class="dock" id="dock" aria-label="Quick navigation">
+  <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</nav>
+
+<script src="script.js"></script>
+<script src="features/config.js" defer></script>
+<script src="features/data/dashboards.js" defer></script>
+<script src="features/data/testimonials.js" defer></script>
+<script src="features/data/facts.js" defer></script>
+<script src="features/features.js" defer></script>
+
+</body>
+</html>

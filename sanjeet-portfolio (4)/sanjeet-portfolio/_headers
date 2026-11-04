@@ -1,0 +1,9 @@
+# Netlify / Cloudflare Pages style headers (ignored by hosts that don't support the file)
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+/assets/*
+  Cache-Control: public, max-age=86400
+/features/*
+  Cache-Control: public, max-age=3600
