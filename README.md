@@ -1,182 +1,79 @@
-Sanjeet Kumar --- Data Analyst Portfolio
+# 🌐 Personal Portfolio Website
 
-A responsive personal portfolio showcasing my data analytics skills,
-internship experience, projects, education, certifications, and resume.
+🔗 **Live Demo:** https://sanjeet-kumar-portfolio98.netlify.app/
 
-🌐 Live Portfolio: https://sanjeet-kumar-portfolio98.netlify.app/
+## ✨ Features
 
-About
+* Modern and responsive UI
+* Interactive animations and transitions
+* About Me and Skills sections
+* Projects showcase with search and filters
+* Internship and Certifications
+* Resume preview and download
+* GitHub statistics integration
+* Power BI Dashboard gallery
+* Contact form
+* Portfolio QR Code
+* SEO and accessibility support
+* Custom 404 error page
 
-I am an aspiring Data Analyst interested in turning raw data into
-meaningful insights. This portfolio presents my learning journey,
-practical work, and experience across the data analytics workflow:
+## 🛠️ Tech Stack
 
-Collect → Clean → Analyse → Visualise
+* HTML5
+* CSS3
+* JavaScript
+* Git & GitHub
+* Netlify
 
-Use the live website to explore my background, skills, projects,
-certifications, and contact information.
+## 📂 Project Structure
 
-Featured Projects
-
-1. India Weather Analysis 2026
-
-A data-focused project exploring weather information and presenting
-findings in an understandable way.
-
-2. LifeFlow Blood Bank
-
-A web-based project focused on a blood bank use case.
-
-For project details, screenshots, and available source links, visit the
-Projects section of the live portfolio.
-
-Skills
-
-The portfolio highlights skills across these areas:
-
-Data Analysis: data collection, cleaning, analysis, and
-interpretation
-
-Visualization & BI: dashboarding and communicating insights
-
-Programming: Python and related data tools
-
-Web Technologies: HTML, CSS, and JavaScript
-
-Please refer to the Skills section of the live portfolio for the
-current list and evidence of each skill.
-
-Portfolio Features
-
-Responsive portfolio layout
-
-About, skills, experience, projects, education, and certifications
-sections
-
-Resume preview and PDF download
-
-Project search and filters
-
-GitHub activity/statistics section
-
-Power BI dashboard gallery (shown when dashboard entries are
-configured)
-
-Skills explorer
-
-Project case-study links
-
-Contact form with email fallback
-
-Portfolio QR code
-
-Accessibility and SEO improvements
-
-Custom 404 page
-
-Built With
-
-HTML5
-
-CSS3
-
-JavaScript (ES modules)
-
-GitHub public API for repository statistics
-
-Netlify for deployment
-
-This is a static website and does not require a frontend build process.
-
-Run Locally
-
-Option 1: VS Code Live Server
-
-Clone or download this repository.
-
-Open the project folder in Visual Studio Code.
-
-Install the Live Server extension.
-
-Right-click index.html.
-
-Select Open with Live Server.
-
-Option 2: Node.js
-
-Node.js 18 or later is recommended.
-
-npm start
-
-Then open:
-
-http://localhost:5173
-
-You can also open index.html directly in a browser. An internet
-connection is needed for externally hosted fonts and API-powered
-features.
-
-Project Structure
-
+```text
 sanjeet-portfolio/
+│
 ├── index.html
 ├── style.css
 ├── script.js
+├── assets/
+├── features/
+├── scripts/
 ├── 404.html
 ├── robots.txt
-├── _headers
-├── package.json
-├── assets/
-│   ├── portrait.webp
-│   ├── Sanjeet_Kumar_Resume.pdf
-│   ├── hero-bg.mp4
-│   └── ...images and certificates
-├── features/
-│   ├── config.js
-│   ├── features.css
-│   ├── features.js
-│   ├── data/
-│   │   ├── dashboards.js
-│   │   ├── facts.js
-│   │   └── testimonials.js
-│   └── vendor/
-└── scripts/
-    └── configure.mjs
+└── package.json
+```
 
-Configuration
+## 🚀 Run Locally
 
-Optional settings are documented in .env.example.
+1. Clone the repository.
 
-To generate the public site configuration:
+```bash
+git clone YOUR_REPOSITORY_URL
+```
 
-cp .env.example .env
+2. Open the project folder in VS Code.
+3. Install the Live Server extension.
+4. Right-click `index.html`.
+5. Select **Open with Live Server**.
 
-Edit .env with the public values you want to use, then run:
+## 🌍 Deployment
 
-npm run configure
+The website is deployed using Netlify.
 
-Only use public configuration values in frontend files. Never add
-private API keys, passwords, or secrets to this repository.
-
-Some optional sections (such as dashboards, testimonials, analytics, and
-the assistant endpoint) remain inactive until configured with real
-content or settings.
-
-Deployment
-
-This project is deployed on Netlify:
-
+**Live Website:**
 https://sanjeet-kumar-portfolio98.netlify.app/
 
-To deploy your own copy, upload the project folder to Netlify or connect
-the GitHub repository to Netlify for automatic deployments.
+## 📌 Future Improvements
 
-Contact
+* More real-world projects
+* Additional interactive dashboards
+* Enhanced performance and accessibility
+* New portfolio features
 
-For professional opportunities, collaboration, or questions, please use
-the contact details and form on my portfolio:
+---
 
-https://sanjeet-kumar-portfolio98.netlify.app/
+<div align="center">
 
-⭐ If you find this portfolio useful or interesting, feel free to
-explore the projects and connect with me.
+**Designed & Developed by Sanjeet Kumar**
+
+⭐ If you like this project, consider giving it a star!
+
+</div>
