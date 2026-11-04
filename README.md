@@ -46,7 +46,7 @@ sanjeet-portfolio/
 1. Clone the repository.
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/sanjeetkumar989159-hub/Sanjeet-Kumar_portfolio.git
 ```
 
 2. Open the project folder in VS Code.
